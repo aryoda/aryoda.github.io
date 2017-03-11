@@ -1,4 +1,17 @@
-R Markdown Websites (intro):
+Customizing GitHub Pages:
+https://help.github.com/categories/customizing-github-pages/
+
+Jekyll (a simple, blog-aware, static site generator)
+https://jekyllrb.com/docs/home/
+https://jekyllrb.com/docs/templates/
+
+
+---------------
+Alternatives to generate websites for github pages
+---------------
+
+
+R Markdown Websites (intro) - generation via RStudio:
 http://rmarkdown.rstudio.com/rmarkdown_websites.html
 
 
@@ -11,10 +24,6 @@ https://github.com/rstudio/rmarkdown-website
   -> no longer requires (generates in the current folder, not into _site like rmarkdown::render_site !!!)
   -> set "Build > Configure Build Tools... > Project Build Tools" to "Website" instead
 - How to bind building the Makefile to Cmd+Shift+B
-
-Jekyll (a simple, blog-aware, static site generator)
-https://jekyllrb.com/docs/home/
-https://jekyllrb.com/docs/templates/
 
 
 
