@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "aryoda's wiki site"
 output: html_document
 ---
