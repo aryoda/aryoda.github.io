@@ -1,0 +1,36 @@
+R Markdown Websites (intro):
+http://rmarkdown.rstudio.com/rmarkdown_websites.html
+
+
+R Markdown Website Example:
+https://github.com/rstudio/rmarkdown-website
+
+- Provides a global navigation bar (defined in _navbar.html)
+- Common output settings for all Rmd files (defined in _output.yaml)
+- Build the site using a Makefile
+  -> no longer requires (generates in the current folder, not into _site like rmarkdown::render_site !!!)
+  -> set "Build > Configure Build Tools... > Project Build Tools" to "Website" instead
+- How to bind building the Makefile to Cmd+Shift+B
+
+Jekyll (a simple, blog-aware, static site generator)
+https://jekyllrb.com/docs/home/
+https://jekyllrb.com/docs/templates/
+
+
+
+FAQs:
+
+Apply rmarkdown::render() outside the RStudio don't find pandoc:
+Error: pandoc version 1.12.3 or higher is required and was not found
+
+http://r.789695.n4.nabble.com/Apply-rmarkdown-render-outside-the-RStudio-don-t-find-pandoc-td4696190.html
+https://github.com/rstudio/rmarkdown/blob/master/PANDOC.md
+
+-> Create soft-links:
+
+For newer Linux systems you can make a standalone version of pandoc v1.12.3 available to the system by soft-linking the binaries included with RStudio:
+
+$ sudo ln -s /usr/lib/rstudio/bin/pandoc/pandoc /usr/local/bin
+$ sudo ln -s /usr/lib/rstudio/bin/pandoc/pandoc-citeproc /usr/local/bin
+
+
