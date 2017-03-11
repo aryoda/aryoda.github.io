@@ -6,11 +6,33 @@ https://jekyllrb.com/docs/home/
 https://jekyllrb.com/docs/templates/
 
 
+What is RSS?
+http://www.rssboard.org/rss-specification
+
 RSS and Atom feeds in Jekyll (two ways - jekyll only and plug-in):
 http://jekyll.tips/jekyll-casts/rss-feed/
 
 Adding Atom (RSS) feeds for GitHub Pages
 https://help.github.com/articles/atom-rss-feeds-for-github-pages/
+
+Jekyll Feed plugin
+https://github.com/jekyll/jekyll-feed
+
+Jekyll RSS Feed Templates (can filter on categories)
+https://github.com/snaptortoise/jekyll-rss-feeds
+
+http://joelglovier.com/writing/rss-for-jekyll
+
+RSS Autodiscovery:
+We just need to add a link to the RSS feed to <head> in _layouts/default.html.
+  <link rel="alternate" type="application/rss+xml" title="Bakery Store RSS" href="/feed.xml">
+See also: http://www.rssboard.org/rss-autodiscovery
+
+Well structured layout templates
+https://github.com/jglovier/jglovier.github.io
+
+Downloading and adjusting github pages default layout schemes:
+https://github.com/pages-themes/
 
 ---------------
 Alternatives to generate websites for github pages
