@@ -2,3 +2,6 @@ theme: jekyll-theme-minimal
 title: "aryoda's R site"
 description: Spinning around the R programming language
 url: https://aryoda.github.io/
+gems:
+  - jekyll-feed
+  

@@ -9,6 +9,9 @@ https://jekyllrb.com/docs/templates/
 RSS and Atom feeds in Jekyll (two ways - jekyll only and plug-in):
 http://jekyll.tips/jekyll-casts/rss-feed/
 
+Adding Atom (RSS) feeds for GitHub Pages
+https://help.github.com/articles/atom-rss-feeds-for-github-pages/
+
 ---------------
 Alternatives to generate websites for github pages
 ---------------
