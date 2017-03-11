@@ -21,3 +21,12 @@ You can find here a list of all my publications related to the R programming lan
 
 
 
+### Blog posts
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
