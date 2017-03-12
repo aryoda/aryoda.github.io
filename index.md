@@ -32,7 +32,7 @@ You can find here a list of all my non-trival publications related to the R prog
 
 <p>
 {% for post in site.posts %}
-    <strong>{{ post.date | date: "%F" }}</strong> - <a href="{{ post.url }}">{{ post.title }}</a> [{{ post.categories }}}] <br>
+    <strong>{{ post.date | date: "%F" }}</strong> - <a href="{{ post.url }}">{{ post.title }}</a> [{{ post.categories }}] <br>
 {% endfor %}
 </p>
 
