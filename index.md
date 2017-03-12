@@ -32,8 +32,6 @@ You can find here a list of all my non-trival publications related to the R prog
 
 <ul>
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+      <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_rfc822 }}) </br>
   {% endfor %}
 </ul>
