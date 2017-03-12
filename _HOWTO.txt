@@ -18,7 +18,7 @@ https://help.github.com/articles/atom-rss-feeds-for-github-pages/
 Jekyll Feed plugin
 https://github.com/jekyll/jekyll-feed
 
-Jekyll RSS Feed Templates (can filter on categories)
+Jekyll RSS Feed Templates (can filter on categories) !!!
 https://github.com/snaptortoise/jekyll-rss-feeds
 
 http://joelglovier.com/writing/rss-for-jekyll
