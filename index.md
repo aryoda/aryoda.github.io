@@ -4,7 +4,7 @@ output: html_document
 ---
 
 
-You can find here a list of all my publications related to the R programming language
+You can find here a list of all my non-trival publications related to the R programming language
 (i. e. source code, packages, training slides).
 
 
