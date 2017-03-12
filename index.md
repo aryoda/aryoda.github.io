@@ -21,7 +21,14 @@ You can find here a list of all my publications related to the R programming lan
 
 
 
-### Blog posts
+### Recommended external sources
+
+[www.r-bloggers.com](http://www.r-bloggers.com/) - R news and tutorials contributed by over 600 R bloggers
+
+
+
+
+### My blog posts here
 
 <ul>
   {% for post in site.posts %}
