@@ -30,8 +30,8 @@ You can find here a list of all my non-trival publications related to the R prog
 
 ### My blog posts here
 
-<ul>
-  {% for post in site.posts %}
-      <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_rfc822 }}) </br>
-  {% endfor %}
-</ul>
+
+{% for post in site.posts %}
+    <p><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_rfc822 }})</p>
+{% endfor %}
+
