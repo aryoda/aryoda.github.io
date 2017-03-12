@@ -4,5 +4,7 @@
 .Ruserdata
 index.html
 readme.html
+_posts/*.html
+
 
 
