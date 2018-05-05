@@ -26,6 +26,12 @@ output:
           reveal_options:
             slideNumber: true
 #            previewLinks: true
+#
+# Child Rmd files are currently not supported as vignettes in R so I had to rename
+# the file endings from "Rmd" to "Rmd_child" as workaround until the R issue is solved and released.
+# See:
+# https://github.com/yihui/knitr/issues/1540
+# https://bugs.r-project.org/bugzilla3/show_bug.cgi?id=17416
 vignette: >
   %\VignetteIndexEntry{Error handling in R with tryCatchLog}
   %\VignetteEngine{knitr::rmarkdown}
